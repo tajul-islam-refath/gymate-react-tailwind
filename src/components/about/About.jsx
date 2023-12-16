@@ -13,7 +13,7 @@ import MainButton from "../button/MainButton";
 
 const About = () => {
   return (
-    <section className="about-section">
+    <section className="about-section pb-[20rem]">
       <div className="container page-padding">
         {/* about cards */}
         <div className="about-cards flex gap-10  md1000:flex-col">
