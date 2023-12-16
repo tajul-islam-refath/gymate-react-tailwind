@@ -16,7 +16,7 @@ const About = () => {
     <section className="about-section">
       <div className="container page-padding">
         {/* about cards */}
-        <div className="about-cards flex gap-10 -mt-[8.5rem] md1000:flex-col">
+        <div className="about-cards flex gap-10  md1000:flex-col">
           <AboutCarts />
         </div>
 
