@@ -45,7 +45,7 @@ function ChooseUs() {
               helps you reach your specific goals.
             </p>
 
-            <div className="grid grid-cols-2 grid-rows-2 gap-14 max-w-[44rem] mt-14 min450:flex min450:flex-col">
+            <div className="grid grid-cols-2 grid-rows-2 gap-14 max-w-[44rem] mt-14 min540:flex min540:flex-col">
               <div className="flex items-center gap-6">
                 <img
                   className="bg-[#2b2b2b] hover:bg-[#ff0336] ease-in duration-200 w-[6.5rem] rounded-full p-4"

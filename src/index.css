@@ -443,3 +443,108 @@ body {
 .choose-cta:hover:after {
   border: 2px solid #ff0336;
 }
+
+/* trainers section */
+
+.trainers-section {
+  background-image: url("./assets/images/trainers/dot-bg.png");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.trainers-section::after {
+  content: url("./assets/images/trainers/bg-attachment.png");
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.box-desc::after {
+  content: "";
+  width: 45px;
+  height: 4px;
+  background-color: #ff0336;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: all 0.4s ease-in-out;
+}
+
+.box-desc:hover:after {
+  content: "";
+  width: 100%;
+  height: 4px;
+}
+
+/* bmi section */
+
+.bmi-section {
+  background-image: url("./assets/images/bmi/background.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+/* price section */
+
+.pricing-section {
+  background-image: url("./assets/images/pricing/background.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pricing-cta {
+  transition: all 0.4s;
+  margin-top: 4rem;
+}
+
+.pricing-cta::after {
+  border: 2px solid #ff03353b;
+}
+
+.pricing-cta:hover:after {
+  border: 2px solid #ff0336;
+}
+
+/* scrollbar ------------------------- */
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #a0a0a0 #ffffff;
+  scroll-behavior: smooth;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 80px;
+  background-color: #ff0336;
+  border: 1.5px solid #fff;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #a0a0a0;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #a0a0a0;
+}
