@@ -6,6 +6,7 @@ import ChooseUs from "../components/ChooseUs/ChooseUs";
 import Trainers from "../components/Trainers/Trainers";
 import Footer from "../components/Footer/Footer";
 import BmiCalc from "../components/BMI/BmiCalc";
+import Pricing from "../components/Pricing/Pricing";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <ChooseUs />
       <Trainers />
       <BmiCalc />
+      <Pricing />
       <Footer />
     </>
   );
